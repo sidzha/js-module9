@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Модуль 9 | ToDo App</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/index.js"></script>
+  </head>
+  <body>
+    <h1>ToDo App</h1>
+    <div class="container">
+      <section class="section-1">
+        <h2>Список дел</h2>
+        <ol class="js-ol"></ol>
+      </section>
+
+      <section class="section-2">
+        <h2>Добавить новое дело</h2>
+
+        <form class="form js-form">
+          <label for="taskname">* Название</label><br /><br />
+
+          <input
+            id="taskname"
+            class="js-taskname"
+            type="text"
+            required
+          /><br /><br />
+
+          <input class="sbmt js-sbmt" type="submit" value="Добавить" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
